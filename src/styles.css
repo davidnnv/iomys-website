@@ -1193,8 +1193,32 @@ a:focus-visible .roll__char {
   border-top: 1px solid var(--line);
 }
 .footer__wordmark {
-  font-size: clamp(56px, 12vw, 180px);
+  font-size: clamp(72px, 12vw, 180px);
   line-height: 1;
+}
+.header__logo-mark {
+  display: none;
+}
+/* Narrow phones: symbol only, tighter controls, so the menu button always fits */
+@media (max-width: 420px) {
+  .header__logo-full {
+    display: none;
+  }
+  .header__logo-mark {
+    display: block;
+  }
+  .header__right {
+    gap: 8px;
+  }
+  .theme-toggle {
+    width: 56px;
+  }
+  [data-theme='light'] .theme-toggle__knob {
+    transform: translateX(20px);
+  }
+  .lang-toggle span {
+    padding: 6px 8px;
+  }
 }
 
 

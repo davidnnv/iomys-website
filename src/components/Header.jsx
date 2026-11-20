@@ -74,7 +74,8 @@ export default function Header() {
   return (
     <header className="header wrap" ref={ref}>
       <a href="#top" className="header__logo" aria-label="IOMYS" data-drop>
-        <Logo size={34} />
+        <Logo size={34} className="header__logo-full" />
+        <Logo size={34} variant="mark" className="header__logo-mark" />
       </a>
 
       <div className="header__right">

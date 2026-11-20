@@ -42,7 +42,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer__bottom">
-          <span className="footer__wordmark" data-reveal>
+          <span className="footer__wordmark">
             <Logo size="0.78em" title="IOMYS" />
           </span>
           <span className="muted small">© {new Date().getFullYear()} IOMYS — Software Development Agency</span>
