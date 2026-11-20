@@ -12,7 +12,7 @@ const IMAGES = [
   { cls: 'hi1', src: '/images/globe.webp', bg: '#1B1B1B', speed: 80 },
   { cls: 'hi2', src: '/images/terrain.svg', bg: '#111316', speed: 0, border: true },
   { cls: 'hi3', src: '/images/orbit.svg', bg: '#23272D', speed: 40, pad: true, spin: true },
-  { cls: 'hi4', src: '/images/work/mama-baby.webp', bg: '#F5D9E2', speed: 100 },
+  { cls: 'hi4', src: '/images/project-2.svg', bg: '#9DB4C8', speed: 100 },
   { cls: 'hi5', src: '/images/contours-dark.svg', bg: '#C8B79A', speed: 20 },
   { cls: 'hi6', src: '/images/globe-grid.svg', bg: '#111316', speed: 60, pad: true, spin: true, reverse: true },
 ];
