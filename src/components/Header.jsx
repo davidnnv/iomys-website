@@ -56,7 +56,8 @@ export default function Header() {
   );
 
   useEffect(() => {
-    document.body.style.overflow = open ? 'hidden' : '';
+    // Lock page scroll on <html> (not <body>): locking <body> breaks the sticky header on phones.
+    document.documentElement.style.overflow = open ? 'hidden' : '';
     if (window.__lenis) open ? window.__lenis.stop() : window.__lenis.start();
     const onKey = (e) => e.key === 'Escape' && setOpen(false);
     window.addEventListener('keydown', onKey);

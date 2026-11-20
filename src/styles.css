@@ -1207,6 +1207,26 @@ a:focus-visible .roll__char {
   .header__burger {
     display: flex;
   }
+  /* Header stays on top while scrolling, so the menu button is always reachable */
+  .header {
+    position: sticky;
+    top: 0;
+    padding-block: 14px;
+    background: var(--bg);
+    transition: background-color 0.6s ease;
+  }
+  .header__logo,
+  .header__right {
+    position: relative;
+    z-index: 2; /* above the open menu, so the close button stays clickable */
+  }
+  .mobile-menu {
+    z-index: 1;
+    inset: 0;
+    padding-top: 108px;
+    height: 100dvh;
+    overflow-y: auto;
+  }
 }
 
 /* ---------- mobile ---------- */
