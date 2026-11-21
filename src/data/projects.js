@@ -16,6 +16,19 @@ export const PROJECTS = [
     },
   },
   {
+    id: 'moe-milenice',
+    name: 'Мое Милениче',
+    nameEn: 'Moe Milenice',
+    cover: '/images/work/moe-milenice.webp',
+    bg: '#DCE8E2',
+    url: 'https://moe-milenice.onrender.com',
+    type: { mk: 'Веб апликација · Онлајн закажување', en: 'Web App · Online booking' },
+    desc: {
+      mk: 'Груминг салон од Скопје: онлајн закажување во реално време, админ панел со известувања и 3D анимации.',
+      en: 'A grooming salon in Skopje: real-time online booking, an admin panel with notifications and 3D animations.',
+    },
+  },
+  {
     id: 'zalak',
     name: 'Залак',
     nameEn: 'Zalak',
