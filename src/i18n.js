@@ -21,6 +21,8 @@ export const translations = {
       ctaTitle: 'Следниот проект може да биде *вашиот.*',
       ctaText: 'Кажете ни што ви треба и ќе ви одговориме со идеја и понуда.',
       ctaBtn: 'Ајде да разговараме',
+      showAll: 'Види ги сите проекти',
+      showLess: 'Прикажи помалку',
     },
 
     marquee: ['Мобилни апликации', '*Веб апликации*', 'Бизнис веб-страници', '*Landing страници*'],
@@ -131,6 +133,8 @@ export const translations = {
       ctaTitle: 'Your project could be *next.*',
       ctaText: 'Tell us what you need and we’ll come back with an idea and a quote.',
       ctaBtn: 'Let’s talk',
+      showAll: 'View all projects',
+      showLess: 'Show less',
     },
 
     marquee: ['Mobile Apps', '*Web Apps*', 'Business Websites', '*Landing Pages*'],

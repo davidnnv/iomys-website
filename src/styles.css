@@ -1566,3 +1566,54 @@ a:focus-visible .roll__char {
 [data-theme='light'] .plan--featured .plan__currency {
   color: var(--yellow);
 }
+
+/* ---------- work: "view all projects" ---------- */
+.work__grid [hidden] {
+  display: none !important;
+}
+.work__of {
+  opacity: 0.55;
+}
+.work__more {
+  display: flex;
+  justify-content: center;
+  margin-top: 72px;
+}
+.work__more-btn {
+  gap: 14px;
+}
+.work__more-count {
+  display: inline-grid;
+  place-items: center;
+  min-width: 34px;
+  height: 26px;
+  padding: 0 8px;
+  border-radius: 999px;
+  background: var(--yellow);
+  color: #111;
+  font-size: 13px;
+  font-weight: 600;
+}
+.card--more:not([hidden]) {
+  animation: work-more-in 0.7s cubic-bezier(0.2, 0.7, 0.1, 1) both;
+}
+@keyframes work-more-in {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+}
+@media (max-width: 760px) {
+  .work__more {
+    margin-top: 48px;
+  }
+  .work__more-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .card--more:not([hidden]) {
+    animation: none;
+  }
+}

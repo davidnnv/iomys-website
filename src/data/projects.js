@@ -16,6 +16,18 @@ export const PROJECTS = [
     },
   },
   {
+    id: 'zelenika',
+    name: 'Zelenika Beer Garden',
+    cover: '/images/work/zelenika.webp',
+    bg: '#0A0C0B',
+    url: 'https://zelenika.onrender.com',
+    type: { mk: 'Веб апликација · Резервации', en: 'Web App · Table bookings' },
+    desc: {
+      mk: 'Пивска градина на Средно Водно: 3D приказ на Водно, онлајн резервации на маси и админ панел со push известувања.',
+      en: 'A beer garden on Middle Vodno: a 3D view of the mountain, online table bookings and an admin panel with push notifications.',
+    },
+  },
+  {
     id: 'moe-milenice',
     name: 'Мое Милениче',
     nameEn: 'Moe Milenice',
